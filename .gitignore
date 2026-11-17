@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+build/
+dist/
+
+# Data: raw downloads and large intermediates are rebuilt by the pipeline (or live in the raw store)
+data/raw/
+data/checkpoints/
+data/processed/*.parquet
+data/processed/analytics/
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+.env
