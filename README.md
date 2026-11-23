@@ -77,8 +77,3 @@ docs/                       findings and data-quality notes
 2. Stress propagation: replay a sell-off through the graph; flag simultaneous calls on connected nodes.
 3. Predict the call: Spark ML on volatility, liquidity, LTV and graph features.
 4. Live and unattended: intraday prices, `spark-submit`, alerts.
-
-## Author
-
-Miguel Palanca (project lead). The original course project was built with Farah Alnuseirat, Raja Akel,
-Ricardo Arciniegas, Riccardo Bellini and Tate Bothner.
