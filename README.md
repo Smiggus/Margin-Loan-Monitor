@@ -2,7 +2,7 @@
 
 Who has pledged listed shares as collateral, to which banks, and where those exposures cluster.
 
-This project grew out of a Modern Data Architectures II (IE University) project during my Master in Business Analytics and Data science course at IE.
+This project grew out of a Modern Data Architectures II project during my Master in Business Analytics and Data science course at IE.
 It is a streaming monitor that replayed March 2020 and compared fixed vs volatility-aware margin calls on seven fictional share-backed loans.
 This repository extends it to **real, public exposures**: a graph of share pledges built from SEC filings, analysed with Spark GraphFrames, with a UK layer from Companies House to follow.
 
